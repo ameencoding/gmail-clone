@@ -127,7 +127,7 @@ const messages = document.querySelector(".messages_area");
 const render = function (data) {
   messages.innerHTML = data
     .map(
-      d => `<div class="messages">
+      (d) => `<div class="messages">
   <div class="messages_left">
     <div class="check check_2">
       <img src="./img/checkbox.png" alt="" />
